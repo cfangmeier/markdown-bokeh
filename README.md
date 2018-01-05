@@ -1,4 +1,4 @@
-#Markdown-Bokeh
+# markdown-bokeh
 
 This is an extension to [Python-Markdown](https://pythonhosted.org/Markdown/)
 which provides the ability to include plots from bokeh. This is essentially a
@@ -7,7 +7,7 @@ modified version of
 the generated javascript and html into the raw markdown file prior to further
 processing.
 
-##Installation
+## Installation
 
 ```bash
 git clone git@github.com:cfangmeier/markdown-bokeh.git
@@ -15,7 +15,13 @@ cd markdown-bokeh
 python setup.py install --user
 ```
 
-##Usage
+You can also install from `pypi` via pip
+
+```bash
+pip install markdown-bokeh
+```
+
+## Usage
 This module can be used in a program in the following way:
 
 ```python
