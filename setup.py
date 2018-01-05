@@ -1,18 +1,11 @@
 from setuptools import setup, find_packages
 from os import path
 
-here = path.abspath(path.dirname(__file__))
-
-# Get the long description from the relevant file
-with open(path.join(here, 'README.md')) as f:
-    long_description = f.read()
-
 setup(
     name='markdown-bokeh',
     packages=find_packages(),
-    version='0.1.0',
-    description='',
-    long_description=long_description,
+    version='0.1.1',
+    description='This is an extension to Python-Markdown which provides the ability to include plots from bokeh.',
     author='Caleb Fangmeier',
     author_email='caleb@fangmeier.tech',
     url='https://github.com/cfangmeier/markdown-bokeh/',
@@ -33,7 +26,7 @@ setup(
         'Topic :: Text Processing :: Markup :: HTML',
 
         # Pick your license as you wish (should match "license" above)
-        'License :: OSI Approved :: MIT',
+        'License :: OSI Approved :: MIT License',
 
         # Specify the Python versions you support here. In particular, ensure
         # that you indicate whether you support Python 2, Python 3 or both.
